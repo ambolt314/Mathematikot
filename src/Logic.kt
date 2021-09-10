@@ -4,11 +4,8 @@ import kotlin.math.pow
 class Logic {
 
 
-    class TruthTable//prepends a leading zero
+    class TruthTable
 
-    //println("Inputs: $inputs")
-
-    //println("Output: $output")
         (numberOfInputs: Int, gate: Gate) {
 
         private var inputs: MutableList<List<Boolean>> = mutableListOf()
